@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+    <jdbcConnection connectionURL="jdbc:mysql://47.94.9.102:3306/blogsysdb?useSSL=false" driverClass="com.mysql.jdbc.Driver" password="WhatFuck@123" userId="root" />
+    
+    <javaModelGenerator targetPackage="org.springboot.blog.project.blogs.entity" targetProject="springboot-blog-project-blogs/src/main/java">
+         <property name="enableSubPackages" value="true"/>    
+            <!-- 从数据库返回的值被清理前后的空格  -->    
+         <property name="trimStrings" value="true" /> 
+    </javaModelGenerator>
+    
+    <sqlMapGenerator targetPackage="org.springboot.blog.project.blogs.mapper" targetProject="springboot-blog-project-blogs/src/main/resources">
+         <property name="enableSubPackages" value="true"/> 
+    </sqlMapGenerator>
+    
+    <javaClientGenerator targetPackage="org.springboot.blog.project.blogs.mapper" targetProject="springboot-blog-project-blogs/src/main/java" type="XMLMAPPER" />
+
+    <table schema="blogsysdb" tableName="BLOG"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"    
+               enableSelectByExample="false" selectByExampleQueryId="false" >
+      <!-- <columnOverride column="???" property="???" /> -->
+    </table>
+      <!-- BLOG,BLOG_TEXT,BLOG_COMMENT,BLOG_CATALOG,COMMENT_REPLY -->
+  </context>
+</generatorConfiguration>

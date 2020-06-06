@@ -1,0 +1,8 @@
+server:
+  port: 8082
+spring:  rabbitmq:    username: yangwenyong
+    password: yangwenyong123
+    host: 127.0.0.1
+    port: 8088
+    listener:      simple:        acknowledge-mode: manual
+        prefetch: 100          

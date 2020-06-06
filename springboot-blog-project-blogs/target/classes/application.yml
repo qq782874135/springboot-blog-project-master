@@ -1,0 +1,57 @@
+
+    
+spring:
+  application:
+    name: blog-server
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://47.94.9.102:3306/blogsysdb?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: WhatFuck@123
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      # 下面为连接池的补充设置，应用到上面所有数据源中
+      # 初始化大小，最小，最大
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      # 配置获取连接等待超时的时间
+      max-wait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      time-between-eviction-runs-millis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      min-evictable-idle-time-millis: 300000  
+      
+  #配置rabbitMq 服务器
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: yangwenyong
+    password: yangwenyong123
+      
+         
+server:
+  port: 9082
+  servlet:
+    context-path: /blogapp
+    
+    
+mybatis:
+  type-aliases-package: org.springboot.blog.project.blogs
+  mapper-locations: classpath*:org.springboot.blog.project.blogs.mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count==countSql
+  
+  
+
+logging:
+  config: classpath:log4j2.xml
+  level:
+    org.springboot.blog.project.blogs.mapper: trace
+    

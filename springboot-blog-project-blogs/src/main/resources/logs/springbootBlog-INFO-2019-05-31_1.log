@@ -1,0 +1,141 @@
+14:32:06.145 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - Starting ServletInitializer v0.0.1-SNAPSHOT on DESKTOP-F5AJOM6 with PID 12536 (C:\java\DevelopTools\tomcatServer8.0\apache-tomcat-8.5.35-blog\webapps\yczblog\WEB-INF\classes started by zK1ys in C:\java\DevelopTools\tomcatServer8.0\apache-tomcat-8.5.35-blog\bin)
+14:32:06.195 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - No active profile set, falling back to default profiles: default
+14:32:16.813 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - Started ServletInitializer in 12.315 seconds (JVM running for 42.256)
+14:32:17.131 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14:34:05.781 [http-nio-9082-exec-2] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+14:34:06.044 [http-nio-9082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:34:06.867 [http-nio-9082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:34:13.792 [http-nio-9082-exec-3] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+14:34:17.919 [http-nio-9082-exec-4] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:04:16.990 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - Starting ServletInitializer v0.0.1-SNAPSHOT on DESKTOP-F5AJOM6 with PID 13184 (C:\java\DevelopTools\tomcatServer8.0\apache-tomcat-8.5.35-blog\webapps\yczblog\WEB-INF\classes started by zK1ys in C:\java\DevelopTools\tomcatServer8.0\apache-tomcat-8.5.35-blog\bin)
+15:04:17.056 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - No active profile set, falling back to default profiles: default
+15:04:24.711 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - Started ServletInitializer in 9.201 seconds (JVM running for 28.717)
+15:04:25.017 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:04:49.063 [http-nio-9082-exec-1] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:04:49.268 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:04:50.068 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:15:04.504 [http-nio-9082-exec-9] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:17:28.783 [http-nio-9082-exec-7] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:21:15.186 [http-nio-9082-exec-5] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:21:28.422 [http-nio-9082-exec-3] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:23:12.964 [http-nio-9082-exec-1] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:26:29.339 [http-nio-9082-exec-9] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:27:48.655 [http-nio-9082-exec-7] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:28:01.502 [http-nio-9082-exec-5] INFO  org.springboot.blog.project.blogs.controller.BlogController - test
+15:32:57.200 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 10664 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+15:32:57.217 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+15:33:00.565 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+15:33:00.590 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:33:00.594 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+15:33:00.608 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+15:33:00.794 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:33:06.791 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+15:33:06.828 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:33:06.885 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 10.698 seconds (JVM running for 13.643)
+15:33:51.593 [http-nio-9082-exec-5] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+15:34:09.067 [http-nio-9082-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:34:09.684 [http-nio-9082-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:44:41.092 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:44:41.102 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:44:54.831 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 16036 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+15:44:54.841 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+15:44:56.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+15:44:56.856 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:44:56.857 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+15:44:56.865 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+15:44:56.975 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yczblog] - Initializing Spring embedded WebApplicationContext
+15:44:58.888 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+15:44:58.910 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:44:58.959 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 4.807 seconds (JVM running for 7.096)
+15:45:59.815 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yczblog] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+15:45:59.944 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:46:00.457 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:46:20.065 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:46:20.075 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:50:27.545 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - Starting ServletInitializer v0.0.1-SNAPSHOT on DESKTOP-F5AJOM6 with PID 9548 (C:\java\DevelopTools\tomcatServer8.0\apache-tomcat-8.5.35-blog\webapps\yczblog\WEB-INF\classes started by zK1ys in C:\java\DevelopTools\tomcatServer8.0\apache-tomcat-8.5.35-blog\bin)
+15:50:27.651 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - No active profile set, falling back to default profiles: default
+15:50:38.921 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - Started ServletInitializer in 13.137 seconds (JVM running for 38.062)
+15:50:39.276 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:59:00.900 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:59:01.829 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:00:07.156 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 4972 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+16:00:07.167 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+16:00:09.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+16:00:09.404 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:00:09.405 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+16:00:09.414 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+16:00:09.563 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+16:00:12.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+16:00:12.500 [main] ERROR org.apache.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-9082]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9082]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.29.jar:8.5.29]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.29.jar:8.5.29]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springboot.blog.project.blogs.blogApplication.main(blogApplication.java:15) [classes/:?]
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020) ~[tomcat-embed-core-8.5.29.jar:8.5.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.29.jar:8.5.29]
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_191]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_191]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_191]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_191]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_191]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.29.jar:8.5.29]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150) ~[tomcat-embed-core-8.5.29.jar:8.5.29]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591) ~[tomcat-embed-core-8.5.29.jar:8.5.29]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018) ~[tomcat-embed-core-8.5.29.jar:8.5.29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.29.jar:8.5.29]
+	... 13 more
+16:00:12.521 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9082"]
+16:00:12.521 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+16:00:12.539 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+16:00:12.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9082"]
+16:00:12.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9082"]
+16:00:35.158 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 12236 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+16:00:35.170 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+16:00:37.625 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+16:00:37.645 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:00:37.652 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+16:00:37.671 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+16:00:37.831 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+16:00:41.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+16:00:41.380 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:00:41.461 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 6.933 seconds (JVM running for 9.692)
+16:00:51.834 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:00:52.053 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:00:52.672 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:01:48.637 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:01:48.682 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:04:16.018 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - Starting ServletInitializer v0.0.1-SNAPSHOT on DESKTOP-F5AJOM6 with PID 6052 (C:\java\DevelopTools\tomcatServer8.0\apache-tomcat-8.5.35-blog\webapps\blogapp\WEB-INF\classes started by zK1ys in C:\java\DevelopTools\tomcatServer8.0\apache-tomcat-8.5.35-blog\bin)
+16:04:16.046 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - No active profile set, falling back to default profiles: default
+16:04:32.033 [localhost-startStop-1] INFO  org.springboot.blog.project.blogs.ServletInitializer - Started ServletInitializer in 17.557 seconds (JVM running for 39.19)
+16:04:32.582 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16:07:10.240 [http-nio-9082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:07:11.085 [http-nio-9082-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:25:48.924 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 15952 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+16:25:48.938 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+16:25:51.930 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+16:25:51.966 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:25:51.968 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+16:25:51.981 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+16:25:52.140 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+16:25:54.563 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+16:25:54.587 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:25:54.654 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 6.66 seconds (JVM running for 9.058)
+16:26:36.817 [http-nio-9082-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:26:36.967 [http-nio-9082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:26:37.452 [http-nio-9082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:37:43.174 [RMI TCP Connection(81)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:37:43.274 [RMI TCP Connection(81)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

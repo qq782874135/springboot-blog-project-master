@@ -1,0 +1,28 @@
+10:04:55.491 [http-nio-9082-exec-7] ERROR org.springboot.blog.project.blogs.controller.BlogController - Invalid bound statement (not found): org.springboot.blog.project.blogs.mapper.BlogMapper.qryBlogComment
+10:08:06.348 [http-nio-9082-exec-1] ERROR org.springboot.blog.project.blogs.controller.BlogController - 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+### The error may exist in org/springboot/blog/project/blogs/mapper/CommentReplyMapper.xml
+### The error may involve org.springboot.blog.project.blogs.mapper.CommentReplyMapper.qryBlogComment-Inline
+### The error occurred while setting parameters
+### SQL: select                 reply_id, reply_text, parent_id, user_id, create_date, state         from COMMENT_REPLY     where blog_id = ?  order by floor_id asc
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+10:09:42.771 [http-nio-9082-exec-2] ERROR org.springboot.blog.project.blogs.controller.BlogController - 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+### The error may exist in org/springboot/blog/project/blogs/mapper/CommentReplyMapper.xml
+### The error may involve org.springboot.blog.project.blogs.mapper.CommentReplyMapper.qryBlogComment-Inline
+### The error occurred while setting parameters
+### SQL: select                 reply_id, reply_text, parent_id, user_id, create_date, state         from COMMENT_REPLY     where blog_id = ?  order by floor_id asc
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+11:11:22.760 [http-nio-9082-exec-1] ERROR org.springboot.blog.project.blogs.controller.BlogController - 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' in field list is ambiguous
+### The error may exist in org/springboot/blog/project/blogs/mapper/BlogCommentMapper.xml
+### The error may involve org.springboot.blog.project.blogs.mapper.BlogCommentMapper.qryBlogComment-Inline
+### The error occurred while setting parameters
+### SQL: select  a.blog_comment_id,  a.blog_comment_text, a.blog_id, user_id,  a.floor_id,  a.create_date,  a.state,     b.reply_id, b.reply_text, b.parent_id, b.user_id replyUserId, b.create_date replyCreateDate, b.state replyState     from BLOG_COMMENT a, COMMENT_REPLY b  where a.floor_id =b.parent_id and a.blog_id = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' in field list is ambiguous
+; ]; Column 'user_id' in field list is ambiguous; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' in field list is ambiguous
+11:14:50.282 [http-nio-9082-exec-1] ERROR org.springboot.blog.project.blogs.controller.BlogController - nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'replyParentId' of 'class org.springboot.blog.project.blogs.bean.BlogCommentBean' with value '1' Cause: org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'replyParentId' in 'class org.springboot.blog.project.blogs.bean.BlogCommentBean'
+11:15:29.041 [http-nio-9082-exec-2] ERROR org.springboot.blog.project.blogs.controller.BlogController - nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'replyParentId' of 'class org.springboot.blog.project.blogs.bean.BlogCommentBean' with value '1' Cause: org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'replyParentId' in 'class org.springboot.blog.project.blogs.bean.BlogCommentBean'
+11:16:26.327 [http-nio-9082-exec-1] ERROR org.springboot.blog.project.blogs.controller.BlogController - nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2

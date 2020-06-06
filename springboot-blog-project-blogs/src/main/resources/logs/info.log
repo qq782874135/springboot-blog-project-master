@@ -1,0 +1,204 @@
+10:01:35.275 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 8428 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+10:01:35.288 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+10:01:36.332 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+10:01:36.341 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:01:36.341 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+10:01:36.346 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+10:01:36.416 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+10:01:37.487 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+10:01:37.495 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:01:37.510 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 2.549 seconds (JVM running for 3.598)
+10:03:50.322 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:03:50.493 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:03:51.033 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:04:55.491 [http-nio-9082-exec-7] ERROR org.springboot.blog.project.blogs.controller.BlogController - Invalid bound statement (not found): org.springboot.blog.project.blogs.mapper.BlogMapper.qryBlogComment
+10:06:56.643 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:06:56.651 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:07:12.782 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 6256 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+10:07:12.790 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+10:07:14.332 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+10:07:14.343 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:07:14.344 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+10:07:14.350 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+10:07:14.436 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+10:07:15.854 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+10:07:15.887 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:07:15.917 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 3.596 seconds (JVM running for 5.267)
+10:07:23.066 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:07:30.192 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:07:32.806 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:08:06.348 [http-nio-9082-exec-1] ERROR org.springboot.blog.project.blogs.controller.BlogController - 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+### The error may exist in org/springboot/blog/project/blogs/mapper/CommentReplyMapper.xml
+### The error may involve org.springboot.blog.project.blogs.mapper.CommentReplyMapper.qryBlogComment-Inline
+### The error occurred while setting parameters
+### SQL: select                 reply_id, reply_text, parent_id, user_id, create_date, state         from COMMENT_REPLY     where blog_id = ?  order by floor_id asc
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+10:09:42.771 [http-nio-9082-exec-2] ERROR org.springboot.blog.project.blogs.controller.BlogController - 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+### The error may exist in org/springboot/blog/project/blogs/mapper/CommentReplyMapper.xml
+### The error may involve org.springboot.blog.project.blogs.mapper.CommentReplyMapper.qryBlogComment-Inline
+### The error occurred while setting parameters
+### SQL: select                 reply_id, reply_text, parent_id, user_id, create_date, state         from COMMENT_REPLY     where blog_id = ?  order by floor_id asc
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'blog_id' in 'where clause'
+11:04:58.631 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 16008 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:04:58.646 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:05:01.436 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:05:01.456 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:05:01.457 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:05:01.472 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:05:01.618 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:05:04.684 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:05:04.708 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:05:04.755 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 6.855 seconds (JVM running for 9.049)
+11:05:21.446 [http-nio-9082-exec-10] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:05:21.654 [http-nio-9082-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:05:22.421 [http-nio-9082-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:06:02.143 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:06:02.158 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:06:20.703 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 2872 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:06:20.717 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:06:22.914 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:06:22.935 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:06:22.936 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:06:22.950 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:06:23.105 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:06:25.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:06:25.328 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:06:25.383 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 5.215 seconds (JVM running for 6.73)
+11:06:33.070 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:06:33.159 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:06:33.644 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:10:03.948 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:10:03.960 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:10:21.467 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 11260 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:10:21.478 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:10:23.617 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:10:23.636 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:10:23.638 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:10:23.652 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:10:23.830 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:10:26.238 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:10:26.252 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:10:26.308 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 5.457 seconds (JVM running for 7.01)
+11:11:02.731 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:11:02.899 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:11:03.446 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:11:22.760 [http-nio-9082-exec-1] ERROR org.springboot.blog.project.blogs.controller.BlogController - 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' in field list is ambiguous
+### The error may exist in org/springboot/blog/project/blogs/mapper/BlogCommentMapper.xml
+### The error may involve org.springboot.blog.project.blogs.mapper.BlogCommentMapper.qryBlogComment-Inline
+### The error occurred while setting parameters
+### SQL: select  a.blog_comment_id,  a.blog_comment_text, a.blog_id, user_id,  a.floor_id,  a.create_date,  a.state,     b.reply_id, b.reply_text, b.parent_id, b.user_id replyUserId, b.create_date replyCreateDate, b.state replyState     from BLOG_COMMENT a, COMMENT_REPLY b  where a.floor_id =b.parent_id and a.blog_id = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' in field list is ambiguous
+; ]; Column 'user_id' in field list is ambiguous; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' in field list is ambiguous
+11:13:49.571 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:13:49.590 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:14:05.132 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 9112 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:14:05.144 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:14:06.984 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:14:07.012 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:14:07.014 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:14:07.024 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:14:07.154 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:14:09.270 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:14:09.292 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:14:09.333 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 4.757 seconds (JVM running for 6.187)
+11:14:36.457 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:14:36.540 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:14:37.073 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:14:50.282 [http-nio-9082-exec-1] ERROR org.springboot.blog.project.blogs.controller.BlogController - nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'replyParentId' of 'class org.springboot.blog.project.blogs.bean.BlogCommentBean' with value '1' Cause: org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'replyParentId' in 'class org.springboot.blog.project.blogs.bean.BlogCommentBean'
+11:15:29.041 [http-nio-9082-exec-2] ERROR org.springboot.blog.project.blogs.controller.BlogController - nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'replyParentId' of 'class org.springboot.blog.project.blogs.bean.BlogCommentBean' with value '1' Cause: org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'replyParentId' in 'class org.springboot.blog.project.blogs.bean.BlogCommentBean'
+11:15:30.384 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:15:30.395 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:15:39.755 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 5772 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:15:39.763 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:15:41.342 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:15:41.356 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:15:41.357 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:15:41.367 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:15:41.477 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:15:43.293 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:15:43.306 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:15:43.345 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 4.03 seconds (JVM running for 5.305)
+11:16:08.931 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:16:09.024 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:16:09.516 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:16:26.327 [http-nio-9082-exec-1] ERROR org.springboot.blog.project.blogs.controller.BlogController - nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+11:20:10.360 [RMI TCP Connection(17)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:20:10.367 [RMI TCP Connection(17)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:20:57.076 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 12904 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:20:57.124 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:20:59.514 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:20:59.536 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:20:59.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:20:59.562 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:20:59.733 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:21:01.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:21:01.804 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:21:01.839 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 5.511 seconds (JVM running for 7.462)
+11:21:14.139 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:21:14.307 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:21:14.841 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:24:18.961 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 4336 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:24:18.969 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:24:20.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:24:20.492 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:24:20.492 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:24:20.500 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:24:20.609 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:24:21.333 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+11:25:35.518 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 9968 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:25:35.534 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:25:37.515 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:25:37.530 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:25:37.531 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:25:37.540 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:25:37.694 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:25:38.595 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+11:27:09.294 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 16264 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:27:09.302 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:27:10.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:27:10.859 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:27:10.860 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:27:10.867 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:27:10.969 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:27:12.688 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:27:12.701 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:27:12.792 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 3.918 seconds (JVM running for 5.395)
+11:27:16.955 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:27:17.071 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:27:17.621 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:34:58.851 [RMI TCP Connection(24)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:34:58.856 [RMI TCP Connection(24)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:35:12.075 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 11032 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:35:12.086 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:35:13.423 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:35:13.434 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:35:13.435 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:35:13.442 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:35:13.533 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:35:14.933 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:35:14.942 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:35:14.986 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 3.317 seconds (JVM running for 4.458)
+11:35:17.620 [http-nio-9082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:35:17.717 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:35:18.188 [http-nio-9082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:37:24.897 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:37:24.913 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:37:36.628 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Starting blogApplication on DESKTOP-F5AJOM6 with PID 16340 (C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs\target\classes started by zK1ys in C:\java\LearningCode\springboot-blog-project-master\springboot-blog-project-blogs)
+11:37:36.636 [main] INFO  org.springboot.blog.project.blogs.blogApplication - No active profile set, falling back to default profiles: default
+11:37:38.245 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9082"]
+11:37:38.257 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:37:38.258 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+11:37:38.266 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\java\DevelopTools\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;"%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;";C:\Users\zK1ys\AppData\Local\Microsoft\WindowsApps;;C:\java\DevelopTools\sts-4.2.2.RELEASE;;.]
+11:37:38.374 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring embedded WebApplicationContext
+11:37:40.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9082"]
+11:37:40.166 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:37:40.201 [main] INFO  org.springboot.blog.project.blogs.blogApplication - Started blogApplication in 4.022 seconds (JVM running for 5.667)
+11:37:44.076 [http-nio-9082-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/blogapp] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:37:44.169 [http-nio-9082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:37:44.737 [http-nio-9082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:05:12.404 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m27s361ms979µs800ns).
