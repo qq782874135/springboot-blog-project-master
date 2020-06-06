@@ -4,7 +4,7 @@
     {
       "sourceType": "org.springboot.blog.project.oauth2server.config.AuthorizationServerConfiguration",
       "name": "spring.datasource",
-      "sourceMethod": "public javax.sql.DataSource dataSource() ",
+      "sourceMethod": "dataSource()",
       "type": "javax.sql.DataSource"
     }
   ],
