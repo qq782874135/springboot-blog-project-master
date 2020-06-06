@@ -9,6 +9,7 @@
 		<version>2.0.1.RELEASE</version>
 		<relativePath />
 	</parent>
+
 	<groupId>com.weny.springboot</groupId>
 	<artifactId>springboot-blog-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
